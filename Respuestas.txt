@@ -2,22 +2,25 @@
 
                          Desarrollo
 
-2f) 
+Ejercicio 2f) 
 
 ------------ ¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
-
+No es posible ver el archivo tp2_1_2.c ya que este fue creado en la rama Opcion_2, siendo esta una copia del archivo original independiente del proyecto. Debido a esto, desde el main no puede ser observado pues no esta presente en esa rama.
 
 
 
 
 ------------ Ejecutando el comando gitk --all  ¿Qué diferencias nota?
+Al ejecutar dicho comando despues de realizar otro commit, podemos que decir que vemos como otro nodo correspondiente al nuevo commit que fue creado.Este se encuentra en la zona donde estan todos los commit de la rama main.
+Respecto al gráfico, antes podiamos ver que de la rama Opcion 2 se desplegaba la rama main. Luego del commit del archivo txt tenemos al main con el nuevo commit y como rama a Opcion 2 con sus respectivos commit.
 
 
 
 
 ------------En el Branch main se va a combinar (merge) ambos repositorios. Para esto, utilice
-el siguiente comando:Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota?
+el siguiente comando "git merge Opcion_2 -m "merge opcion 2"" ,Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota?
 
+ Con el comando mencionado la rama opcion 2 se conecta con la rama main, entonces cuando se combinan ambos repositorios se unifican ambas ramas permitiendo que los cambios realizados en Opcion 2 se vean reflejado en la rama del main. Gráficamente, al conectarse todas las ramas y puntos al main podemos visualizar la forma de una figura cerrada.
 
 
 
